@@ -1,17 +1,5 @@
 import csv
-#pass1
-with open('data/customers.csv','r') as csv_file1:
-    csv_reader=csv.reader(csv_file1)
-    next(csv_reader)
-    total_sal=n=0
-    for line in csv_reader:
-        
-        if line[2]!="":
-            total_sal=total_sal+int(line[2])
-            n=n+1
-        else:
-            continue
-average = total_sal/n
+
 #pass 2
 with open('data/customers.csv','r') as csv_file:
     csv_reader=csv.reader(csv_file)
