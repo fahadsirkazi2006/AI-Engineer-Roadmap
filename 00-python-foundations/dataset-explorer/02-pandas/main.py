@@ -20,6 +20,7 @@ for column in header:
 print("-------CONVERT NUMERIC COLUMNS-------")
 df["age"]=pd.to_numeric(df["age"],errors="coerce")
 df["experience"]=pd.to_numeric(df["experience"],errors="coerce")
+print(df)
 
 print("-----FIX PURCHASED------")
 df["purchased"]=df["purchased"].map({"1":1,"0":0,"yes":1,"no":0})
