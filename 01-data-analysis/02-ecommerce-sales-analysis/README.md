@@ -64,3 +64,19 @@ python src/analysis.py
 - Revenue is calculated using project-specific transaction filters and is not audited accounting revenue.
 - RFM segments depend on the scoring and classification rules; findings describe historical behaviour and do not guarantee future purchases.
 
+## SQL Analysis Findings
+1. United Kingdom dominates sales.
+
+The UK generated approximately £9.01 million, making it the largest market by a substantial margin.
+
+2. Netherlands and EIRE have interesting differences.
+
+Netherlands generated slightly more revenue than EIRE despite having considerably fewer invoices. This suggests a higher average revenue per invoice.
+- Netherlands: approximately £3,036.66 per invoice.
+- EIRE: approximately £984.21 per invoice.
+3. Market concentration is worth investigating.
+
+The business appears heavily dependent on UK sales. Further analysis could investigate international expansion opportunities and customer purchasing patterns.
+
+
+
